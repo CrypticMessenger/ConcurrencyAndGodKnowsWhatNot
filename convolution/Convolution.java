@@ -6,11 +6,11 @@ import ConvolutionOperator.MultithreadedConvolutionOperator;
 public class Convolution {
     public static void main(String[] args) {
          // Example large image and kernel
-        int length = 5000, width = 5000;
+        int length = 8000, width = 8000;
         double[][] image = new double[length][width];
         for (int i = 0; i < length; i++) {
             for (int j = 0; j < width; j++) {
-                image[i][j] = i * 100 + j;
+                image[i][j] = i * 90 + j;
             }
         }
 
