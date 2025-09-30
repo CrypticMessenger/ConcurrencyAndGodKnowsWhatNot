@@ -3,6 +3,7 @@ package leetcodeConcurrency;
 import java.util.concurrent.CountDownLatch;
 
 // https://leetcode.com/problems/print-in-order/
+// Solution: https://leetcode.com/problems/print-in-order/solutions/7189213/java-solution-using-latches/
 
 import java.util.concurrent.Semaphore;
 
